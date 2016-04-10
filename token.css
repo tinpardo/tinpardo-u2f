@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*****************************************************************************
+ *
+ * Custom CSS
+ *
+ *****************************************************************************/
+
+body {
+	width: 320px;
+	font-family: sans-serif;
+	color: rgb(29, 29, 27);
+	background-color: #DCDBD6;
+}
+
+.light {
+	color: rgb(110, 110, 110);
+}
+
+#header {
+	padding: 1em;
+	text-align: center;
+}
+
+#header h1 {
+	font-weight: bold;
+	line-height: 125%;
+	font-size: 2em;
+	padding-bottom: 1em;
+}
+
+a#touch {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(29, 29, 27);
+	background: url("assets/simulate.svg") no-repeat 8px 5px;
+	padding: 5px 5px 5px 45px;
+	line-height: 34px;
+	width: 135px;
+	height: 34px;
+	border: 2px solid #777;
+	border-radius: 3px;
+	background-clip: padding-box;
+	background-color: #ededed;
+	box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+
+a#touch:hover {
+	color: rgb(227, 6, 19);
+	background-image: url("assets/simulate_hover.svg");
+}
+
+#nokeys {
+	display: block;
+	font-weight: bold;
+	color: rgb(227, 6, 19);
+	margin-top: 2em;
+}
+
+#footer {
+	padding: 1em;
+	text-align: center;
+}
+
+#footer small {
+	display: block;
+	color: #777;
+	text-align: left;
+	font-size: .5em;
+}
+
+a#empty {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(29, 29, 27);
+	padding: 5px 25px 5px 25px;
+	line-height: 34px;
+	width: 135px;
+	height: 34px;
+	border: 2px solid #777;
+	border-radius: 3px;
+	background-clip: padding-box;
+	background-color: #ededed;
+	box-shadow: 0 0 5px rgba(0,0,0,.1);
+	margin-bottom: 1em;
+}
+
+a#empty:hover {
+	color: rgb(227, 6, 19);
+}
+
+.key {
+	display: block;
+	padding: .5em;
+	background-color: #EEE;
+	border: 1px solid #777;
+	border-radius: 3px;
+}
+
+#keys,
+#meta {
+	padding: 0 1em;
+	font-size: .8em;
+	text-align: left;
+}
+
+#meta p,
+#keys p {
+	font-family: monospace;
+	white-space: pre-line;
+}
+
+#keys strong {
+	font-weight: bold;
+}
+
+#keys .key {
+	margin: .5em 0;
+	text-wrap: unrestricted;
+	word-wrap: break-word;
+}
+
+#meta h5,
+#keys h4,
+#keys h5,
+#keys h6 {
+	color: #777;
+}
+
+
+#keys h4 strong,
+#keys h5 strong,
+#keys h6 strong {
+	color: #000;
+	font-weight: bold;
+}
+
+#meta p {
+	text-wrap: unrestricted;
+	word-wrap: break-word;
+}
+
+#meta a {
+	color: #000;
+	text-decoration: none;
+}
+
+#meta a:hover {
+	color: rgb(227, 6, 19);
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en-gb">
+	<head>
+		<meta charset="utf-8">
+		<!-- link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,300,700"-->
+		<link rel="stylesheet" href="token.css">
+	</head>
+	<body>
+		<img alt="Plugin Logo" src="assets/header.svg">
+		
+		<div id="header">
+			<h1>Virtual U2F Token</h1>
+			
+			<a href="#" id="touch">
+				Simulate Touch
+			</a>
+			
+			<p id="nokeys">
+				No keys in store.
+			</p>
+		</div>
+		
+		<div id="meta">
+			<div id="private-attestation-key">
+				<h5>Private Attestation Key (<a href="#" class="show">show</a>)</h5>
+				<p style="display: none;"></p>
+			</div>
+			
+			<div id="public-attestation-key">
+				<h5>Public Attestation Key (<a href="#" class="show">show</a>)</h5>
+				<p style="display: none;"></p>
+			</div>
+			
+			<div id="attestation-certificate">
+				<h5>X509 Attestation Certificate (<a href="#" class="show">show</a>)</h5>
+				<p style="display: none;"></p>
+			</div>
+		</div>
+		
+		<div id="keys">
+			
+		</div>
+		
+		<div id="footer">
+			<a href="#" id="empty">
+				Empty Key Store
+			</a>
+			<small><strong>Icon Credit:</strong></small>
+			<small>Touch button by Jetro Cabau Quirós from The Noun Project</small>
+			<small>USB Flash Drive by Michael Rowe from The Noun Project</small>
+		</div>
+	</body>
+	
+	<!-- Functionality Scripts -->
+	<script src="panel.js"></script>
+	
+	<!-- UI Scripts -->
+	<script src="vendor/jquery-2.1.1.min.js"></script>
+	<script src="ui.js"></script>
+</html>
