@@ -1,7 +1,7 @@
-Virtual FIDO U2F Token Chrome Extension
+Virtual FIDO U2F Tinpardo Token Chrome Extension
 =======================================
 
-**Recovered**—This project is no longer maintained or updated.
+**Recovered**—This project is mainteined or updated by tinpardo@gmail.com.
 
 A JavaScript implementation of a virtual [FIDO U2F](http://fidoalliance.org/specifications/download/) token and a JavaScript API to conveniently access it.
 
